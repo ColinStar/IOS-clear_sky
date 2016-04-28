@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>All_Complain.png</string>
+		<string>Near_Complain.png</string>
+	</array>
+	<array>
+		<string>Chart.png</string>
+		<string>Search.png</string>
+	</array>
+	<array>
+		<string>News.png</string>
+		<string>Data.png</string>
+		<string>Game.png</string>
+	</array>
+</array>
+</plist>
