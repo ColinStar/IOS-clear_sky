@@ -18,7 +18,7 @@
 @end
 
 @implementation SecondView
-    @synthesize tv = _tv;
+@synthesize tv = _tv;
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor grayColor];
@@ -74,6 +74,9 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     static NSString *cellIdentifier = @"cell";
     UITableViewCell *tvc = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+#warning 对象化
+#warning 数据库实例化
+#warning Button事件(点击)
     if (tvc == nil) {
         tvc = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
             //单元格样式
@@ -86,7 +89,7 @@
         UIImageView *Image_Detail = [[UIImageView alloc]initWithFrame:CGRectMake(0, 60, 320, 150)];
         UIView *Issue = [[UIView alloc]initWithFrame:CGRectMake(0, 210, 320, 20)];
         UITextView *text = [[UITextView alloc]initWithFrame:CGRectMake(0, 230, 320, size.height+30)];
-        UIView *Interaction = [[UIView alloc]initWithFrame:CGRectMake(0, 230+size.height+30, 320, 30)];
+        UIView *Interaction = [[UIView alloc]initWithFrame:CGRectMake(0, 230+size.height+40, 320, 30)];
         
         UILabel *maintitle = [[UILabel alloc]initWithFrame:CGRectMake(55, 4, 80, 15)];
         UILabel *Detailtitle = [[UILabel alloc]initWithFrame:CGRectMake(55, 23, 130, 10)];
@@ -102,7 +105,6 @@
         UIButton *share = [[UIButton alloc]initWithFrame:CGRectMake(195, 5, 60, 20)];
         
         UIButton *store = [[UIButton alloc]initWithFrame:CGRectMake(260, 5, 60, 20)];
-        
         maintitle.font = [UIFont systemFontOfSize:15];
         maintitle.text = [Com[indexPath.section] objectForKey:@"name"];
         Detailtitle.font =[UIFont systemFontOfSize:12];
@@ -212,15 +214,10 @@
 
 - (float)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    int row = [indexPath row];
-    // 用何種字體進行顯示
     UIFont *font = [UIFont systemFontOfSize:12];
-    // 該行要顯示的內容
     NSString *content = [Com[indexPath.section] objectForKey:@"text"];
-    // 計算出顯示完內容需要的最小尺寸
     CGSize size = [content sizeWithFont:font constrainedToSize:CGSizeMake(320, 1000.0f) lineBreakMode:UILineBreakModeWordWrap];
-    // 這裏返回需要的高度
-    return 230+size.height+30+30;
+    return 230+size.height+40+30;
 }
 
 - (void)didReceiveMemoryWarning {
