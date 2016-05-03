@@ -1,5 +1,5 @@
 //
-//  FifthView.h
+//  SinaViewController.h
 //  clear sky
 //
 //  Created by Colin on 16/5/3.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FifthView : UIViewController
+@interface Sina : UIViewController
 
 @end

@@ -13,5 +13,7 @@
 
 @interface MainView : UIViewController<UIScrollViewDelegate,CLLocationManagerDelegate,UIAlertViewDelegate>
 
+-(NSString*) getlocation;
+
 @end
 

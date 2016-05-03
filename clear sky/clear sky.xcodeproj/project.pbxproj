@@ -54,7 +54,7 @@
 		3B57F3181CC4CFA6001F6276 /* aqi.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B57F2861CC4CFA5001F6276 /* aqi.json */; };
 		3B57F3191CC4CFA6001F6276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B57F2871CC4CFA5001F6276 /* Assets.xcassets */; };
 		3B57F31B1CC4CFA6001F6276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B57F28A1CC4CFA5001F6276 /* Main.storyboard */; };
-		3B57F31C1CC4CFA6001F6276 /* cell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B57F28C1CC4CFA5001F6276 /* cell.plist */; };
+		3B57F31C1CC4CFA6001F6276 /* Four's cell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B57F28C1CC4CFA5001F6276 /* Four's cell.plist */; };
 		3B57F31D1CC4CFA6001F6276 /* Chart.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57F28E1CC4CFA5001F6276 /* Chart.m */; };
 		3B57F31E1CC4CFA6001F6276 /* Chart.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B57F28F1CC4CFA5001F6276 /* Chart.png */; };
 		3B57F31F1CC4CFA6001F6276 /* Chart1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B57F2901CC4CFA5001F6276 /* Chart1.png */; };
@@ -72,7 +72,6 @@
 		3B57F32B1CC4CFA6001F6276 /* discussions.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B57F29D1CC4CFA5001F6276 /* discussions.json */; };
 		3B57F32C1CC4CFA6001F6276 /* Exercise.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B57F29E1CC4CFA5001F6276 /* Exercise.png */; };
 		3B57F32D1CC4CFA6001F6276 /* Exercise_light.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B57F29F1CC4CFA5001F6276 /* Exercise_light.png */; };
-		3B57F32E1CC4CFA6001F6276 /* FifthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57F2A11CC4CFA5001F6276 /* FifthView.m */; };
 		3B57F32F1CC4CFA6001F6276 /* FourthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57F2A31CC4CFA6001F6276 /* FourthView.m */; };
 		3B57F3301CC4CFA6001F6276 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57F2A51CC4CFA6001F6276 /* Game.m */; };
 		3B57F3311CC4CFA6001F6276 /* Game.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B57F2A61CC4CFA6001F6276 /* Game.png */; };
@@ -95,7 +94,7 @@
 		3B57F3451CC4CFA6001F6276 /* ios7-person.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B57F2BA1CC4CFA6001F6276 /* ios7-person.png */; };
 		3B57F3471CC4CFA6001F6276 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57F2C11CC4CFA6001F6276 /* main.m */; };
 		3B57F3481CC4CFA6001F6276 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57F2C31CC4CFA6001F6276 /* MainView.m */; };
-		3B57F3491CC4CFA6001F6276 /* menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B57F2C41CC4CFA6001F6276 /* menu.plist */; };
+		3B57F3491CC4CFA6001F6276 /* Four's menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B57F2C41CC4CFA6001F6276 /* Four's menu.plist */; };
 		3B57F34A1CC4CFA6001F6276 /* mycell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57F2C61CC4CFA6001F6276 /* mycell.m */; };
 		3B57F34B1CC4CFA6001F6276 /* myline.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57F2C81CC4CFA6001F6276 /* myline.m */; };
 		3B57F34C1CC4CFA6001F6276 /* myUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57F2CA1CC4CFA6001F6276 /* myUILabel.m */; };
@@ -169,6 +168,23 @@
 		3B57F3971CC4D46F001F6276 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B57F3961CC4D46F001F6276 /* CoreTelephony.framework */; };
 		3B57F3991CC4D479001F6276 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B57F3981CC4D479001F6276 /* AdSupport.framework */; };
 		3B57F39B1CC4D481001F6276 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B57F39A1CC4D481001F6276 /* CoreLocation.framework */; };
+		3B5E01361CD46A5E00A89909 /* myLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E01351CD46A5E00A89909 /* myLocation.m */; };
+		3B5E013A1CD480C200A89909 /* ios7-pricetags-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5E01391CD480C200A89909 /* ios7-pricetags-outline.png */; };
+		3B5E013E1CD4812700A89909 /* ios7-compose-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5E013D1CD4812700A89909 /* ios7-compose-outline.png */; };
+		3B5E01421CD4850600A89909 /* ios7-location-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5E01411CD4850600A89909 /* ios7-location-outline.png */; };
+		3B5E01441CD5CF6100A89909 /* complaint-add.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5E01431CD5CF6100A89909 /* complaint-add.png */; };
+		3B5E01711CD8481800A89909 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5E01701CD8481800A89909 /* Foundation.framework */; };
+		3B5E01751CD870E800A89909 /* Qozone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E01741CD870E800A89909 /* Qozone.m */; };
+		3B5E01781CD875A800A89909 /* Sina.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E01771CD875A800A89909 /* Sina.m */; };
+		3B5E017B1CD8800100A89909 /* FifthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E017A1CD8800100A89909 /* FifthView.m */; };
+		3B5E017D1CD880EC00A89909 /* Five's menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B5E017C1CD880EC00A89909 /* Five's menu.plist */; };
+		3B5E017F1CD883B500A89909 /* Five's cell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B5E017E1CD883B500A89909 /* Five's cell.plist */; };
+		3B5E01861CD88ACB00A89909 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5E01801CD88ACB00A89909 /* gear.png */; };
+		3B5E01871CD88ACB00A89909 /* my complain.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5E01811CD88ACB00A89909 /* my complain.png */; };
+		3B5E01881CD88ACB00A89909 /* my discuss.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5E01821CD88ACB00A89909 /* my discuss.png */; };
+		3B5E01891CD88ACB00A89909 /* my message.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5E01831CD88ACB00A89909 /* my message.png */; };
+		3B5E018A1CD88ACB00A89909 /* my PI.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5E01841CD88ACB00A89909 /* my PI.png */; };
+		3B5E018B1CD88ACB00A89909 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B5E01851CD88ACB00A89909 /* user.png */; };
 		3B60F91C1CD17FBC00806F9F /* ios7-heart-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B60F91B1CD17FBC00806F9F /* ios7-heart-outline.png */; };
 		3B60F91E1CD1805B00806F9F /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B60F91D1CD1805B00806F9F /* share.png */; };
 		3B60F9201CD180EF00806F9F /* ios7-star-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B60F91F1CD180EF00806F9F /* ios7-star-outline.png */; };
@@ -270,7 +286,7 @@
 		3B57F2861CC4CFA5001F6276 /* aqi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = aqi.json; sourceTree = "<group>"; };
 		3B57F2871CC4CFA5001F6276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "clear sky/Assets.xcassets"; sourceTree = "<group>"; };
 		3B57F28B1CC4CFA5001F6276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3B57F28C1CC4CFA5001F6276 /* cell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cell.plist; sourceTree = "<group>"; };
+		3B57F28C1CC4CFA5001F6276 /* Four's cell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Four's cell.plist"; sourceTree = "<group>"; };
 		3B57F28D1CC4CFA5001F6276 /* Chart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chart.h; sourceTree = "<group>"; };
 		3B57F28E1CC4CFA5001F6276 /* Chart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chart.m; sourceTree = "<group>"; };
 		3B57F28F1CC4CFA5001F6276 /* Chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chart.png; sourceTree = "<group>"; };
@@ -290,8 +306,6 @@
 		3B57F29D1CC4CFA5001F6276 /* discussions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = discussions.json; sourceTree = "<group>"; };
 		3B57F29E1CC4CFA5001F6276 /* Exercise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Exercise.png; sourceTree = "<group>"; };
 		3B57F29F1CC4CFA5001F6276 /* Exercise_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Exercise_light.png; sourceTree = "<group>"; };
-		3B57F2A01CC4CFA5001F6276 /* FifthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthView.h; sourceTree = "<group>"; };
-		3B57F2A11CC4CFA5001F6276 /* FifthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthView.m; sourceTree = "<group>"; };
 		3B57F2A21CC4CFA6001F6276 /* FourthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthView.h; sourceTree = "<group>"; };
 		3B57F2A31CC4CFA6001F6276 /* FourthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthView.m; sourceTree = "<group>"; };
 		3B57F2A41CC4CFA6001F6276 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
@@ -321,7 +335,7 @@
 		3B57F2C11CC4CFA6001F6276 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3B57F2C21CC4CFA6001F6276 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
 		3B57F2C31CC4CFA6001F6276 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
-		3B57F2C41CC4CFA6001F6276 /* menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = menu.plist; sourceTree = "<group>"; };
+		3B57F2C41CC4CFA6001F6276 /* Four's menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Four's menu.plist"; sourceTree = "<group>"; };
 		3B57F2C51CC4CFA6001F6276 /* mycell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mycell.h; sourceTree = "<group>"; };
 		3B57F2C61CC4CFA6001F6276 /* mycell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mycell.m; sourceTree = "<group>"; };
 		3B57F2C71CC4CFA6001F6276 /* myline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myline.h; sourceTree = "<group>"; };
@@ -405,6 +419,27 @@
 		3B57F3981CC4D479001F6276 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		3B57F39A1CC4D481001F6276 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		3B57F39C1CC4D54E001F6276 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3B5E01341CD46A5E00A89909 /* myLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myLocation.h; sourceTree = "<group>"; };
+		3B5E01351CD46A5E00A89909 /* myLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myLocation.m; sourceTree = "<group>"; };
+		3B5E01391CD480C200A89909 /* ios7-pricetags-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-pricetags-outline.png"; sourceTree = "<group>"; };
+		3B5E013D1CD4812700A89909 /* ios7-compose-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-compose-outline.png"; sourceTree = "<group>"; };
+		3B5E01411CD4850600A89909 /* ios7-location-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-location-outline.png"; sourceTree = "<group>"; };
+		3B5E01431CD5CF6100A89909 /* complaint-add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "complaint-add.png"; sourceTree = "<group>"; };
+		3B5E01701CD8481800A89909 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B5E01731CD870E800A89909 /* Qozone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Qozone.h; sourceTree = "<group>"; };
+		3B5E01741CD870E800A89909 /* Qozone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Qozone.m; sourceTree = "<group>"; };
+		3B5E01761CD875A800A89909 /* Sina.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sina.h; sourceTree = "<group>"; };
+		3B5E01771CD875A800A89909 /* Sina.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sina.m; sourceTree = "<group>"; };
+		3B5E01791CD8800100A89909 /* FifthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthView.h; sourceTree = "<group>"; };
+		3B5E017A1CD8800100A89909 /* FifthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthView.m; sourceTree = "<group>"; };
+		3B5E017C1CD880EC00A89909 /* Five's menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Five's menu.plist"; sourceTree = "<group>"; };
+		3B5E017E1CD883B500A89909 /* Five's cell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Five's cell.plist"; sourceTree = "<group>"; };
+		3B5E01801CD88ACB00A89909 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		3B5E01811CD88ACB00A89909 /* my complain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my complain.png"; sourceTree = "<group>"; };
+		3B5E01821CD88ACB00A89909 /* my discuss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my discuss.png"; sourceTree = "<group>"; };
+		3B5E01831CD88ACB00A89909 /* my message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my message.png"; sourceTree = "<group>"; };
+		3B5E01841CD88ACB00A89909 /* my PI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my PI.png"; sourceTree = "<group>"; };
+		3B5E01851CD88ACB00A89909 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 		3B60F91B1CD17FBC00806F9F /* ios7-heart-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-heart-outline.png"; sourceTree = "<group>"; };
 		3B60F91D1CD1805B00806F9F /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
 		3B60F91F1CD180EF00806F9F /* ios7-star-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-star-outline.png"; sourceTree = "<group>"; };
@@ -461,6 +496,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B5E01711CD8481800A89909 /* Foundation.framework in Frameworks */,
 				3B57F39B1CC4D481001F6276 /* CoreLocation.framework in Frameworks */,
 				3B084FB41CC521DD006C1614 /* JuheApisSDK.a in Frameworks */,
 				3B57F3991CC4D479001F6276 /* AdSupport.framework in Frameworks */,
@@ -490,6 +526,7 @@
 		0A893E668D9AC1E21322F14B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3B5E01701CD8481800A89909 /* Foundation.framework */,
 				3B57F39A1CC4D481001F6276 /* CoreLocation.framework */,
 				3B57F3981CC4D479001F6276 /* AdSupport.framework */,
 				3B57F3961CC4D46F001F6276 /* CoreTelephony.framework */,
@@ -581,9 +618,11 @@
 				3B57F2851CC4CFA5001F6276 /* AppDelegate.mm */,
 				3B57F3921CC4D0CA001F6276 /* Tabbarview */,
 				3B57F2C11CC4CFA6001F6276 /* main.m */,
-				3B57F28C1CC4CFA5001F6276 /* cell.plist */,
+				3B57F2C41CC4CFA6001F6276 /* Four's menu.plist */,
+				3B57F28C1CC4CFA5001F6276 /* Four's cell.plist */,
+				3B5E017C1CD880EC00A89909 /* Five's menu.plist */,
+				3B5E017E1CD883B500A89909 /* Five's cell.plist */,
 				3B57F2911CC4CFA5001F6276 /* city.plist */,
-				3B57F2C41CC4CFA6001F6276 /* menu.plist */,
 				3B57F39C1CC4D54E001F6276 /* PrefixHeader.pch */,
 				3B084FBB1CC52595006C1614 /* Default-568h@2x.png */,
 				3BF6DCE41CC75CB4001EF668 /* Masonry */,
@@ -703,6 +742,8 @@
 				3B57F2C81CC4CFA6001F6276 /* myline.m */,
 				3B57F2C91CC4CFA6001F6276 /* myUILabel.h */,
 				3B57F2CA1CC4CFA6001F6276 /* myUILabel.m */,
+				3B5E01341CD46A5E00A89909 /* myLocation.h */,
+				3B5E01351CD46A5E00A89909 /* myLocation.m */,
 			);
 			name = Tool;
 			sourceTree = "<group>";
@@ -716,11 +757,12 @@
 				3B57F2E51CC4CFA6001F6276 /* SecondView.m */,
 				3B57F2E91CC4CFA6001F6276 /* ThridView.h */,
 				3B57F2EA1CC4CFA6001F6276 /* ThridView.m */,
+				3B5E01721CD8708400A89909 /* ThridView */,
 				3B57F2A21CC4CFA6001F6276 /* FourthView.h */,
 				3B57F2A31CC4CFA6001F6276 /* FourthView.m */,
-				3B57F2A01CC4CFA5001F6276 /* FifthView.h */,
-				3B57F2A11CC4CFA5001F6276 /* FifthView.m */,
 				3B57F3931CC4D158001F6276 /* Fourthview */,
+				3B5E01791CD8800100A89909 /* FifthView.h */,
+				3B5E017A1CD8800100A89909 /* FifthView.m */,
 			);
 			name = Tabbarview;
 			sourceTree = "<group>";
@@ -746,9 +788,26 @@
 			name = Fourthview;
 			sourceTree = "<group>";
 		};
+		3B5E01721CD8708400A89909 /* ThridView */ = {
+			isa = PBXGroup;
+			children = (
+				3B5E01731CD870E800A89909 /* Qozone.h */,
+				3B5E01741CD870E800A89909 /* Qozone.m */,
+				3B5E01761CD875A800A89909 /* Sina.h */,
+				3B5E01771CD875A800A89909 /* Sina.m */,
+			);
+			name = ThridView;
+			sourceTree = "<group>";
+		};
 		3BF6DC6F1CC5FCB2001EF668 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				3B5E01801CD88ACB00A89909 /* gear.png */,
+				3B5E01811CD88ACB00A89909 /* my complain.png */,
+				3B5E01821CD88ACB00A89909 /* my discuss.png */,
+				3B5E01831CD88ACB00A89909 /* my message.png */,
+				3B5E01841CD88ACB00A89909 /* my PI.png */,
+				3B5E01851CD88ACB00A89909 /* user.png */,
 				3B57F2821CC4CFA5001F6276 /* All_Complain.png */,
 				3B57F2831CC4CFA5001F6276 /* All_Complain1.png */,
 				3B09FB821CD0FEDB00FF55EB /* b1.jpg */,
@@ -758,6 +817,7 @@
 				3B09FB861CD0FEDB00FF55EB /* b5.jpg */,
 				3B09FB871CD0FEDB00FF55EB /* b6.jpg */,
 				3B60F9211CD181F300806F9F /* bulb.png */,
+				3B5E01431CD5CF6100A89909 /* complaint-add.png */,
 				3B57F28F1CC4CFA5001F6276 /* Chart.png */,
 				3B57F2901CC4CFA5001F6276 /* Chart1.png */,
 				3B57F2931CC4CFA5001F6276 /* CO_light.png */,
@@ -794,6 +854,9 @@
 				3B57F2B61CC4CFA6001F6276 /* ios7-ionic.png */,
 				3B57F2B71CC4CFA6001F6276 /* ios7-location-black.png */,
 				3B57F2B81CC4CFA6001F6276 /* ios7-location-light.png */,
+				3B5E01411CD4850600A89909 /* ios7-location-outline.png */,
+				3B5E013D1CD4812700A89909 /* ios7-compose-outline.png */,
+				3B5E01391CD480C200A89909 /* ios7-pricetags-outline.png */,
 				3B57F2B91CC4CFA6001F6276 /* ios7-person-outline.png */,
 				3B57F2BA1CC4CFA6001F6276 /* ios7-person.png */,
 				3B57F2CB1CC4CFA6001F6276 /* Near_Complain.png */,
@@ -992,6 +1055,7 @@
 			files = (
 				3B09FB791CD0F35E00FF55EB /* umeng_socialize_sina_on.png in Resources */,
 				3B57F3891CC4CFA6001F6276 /* 7.png in Resources */,
+				3B5E018B1CD88ACB00A89909 /* user.png in Resources */,
 				3B57F3531CC4CFA6001F6276 /* NO2.png in Resources */,
 				3B09FB721CD0F35E00FF55EB /* umeng_socialize_qq_off.png in Resources */,
 				3B57F37A1CC4CFA6001F6276 /* 22.png in Resources */,
@@ -1013,10 +1077,13 @@
 				3B57F3791CC4CFA6001F6276 /* 21.png in Resources */,
 				3B57F32B1CC4CFA6001F6276 /* discussions.json in Resources */,
 				3B09FB7E1CD0F35E00FF55EB /* umeng_socialize_wechat.png in Resources */,
+				3B5E017D1CD880EC00A89909 /* Five's menu.plist in Resources */,
 				3B09FB751CD0F35E00FF55EB /* umeng_socialize_qzone_on.png in Resources */,
 				3B09FB891CD0FEDB00FF55EB /* b2.jpg in Resources */,
+				3B5E018A1CD88ACB00A89909 /* my PI.png in Resources */,
 				3B57F3711CC4CFA6001F6276 /* 14.png in Resources */,
 				3B09FB6D1CD0F35E00FF55EB /* umeng_socialize_douban_off.png in Resources */,
+				3B5E01441CD5CF6100A89909 /* complaint-add.png in Resources */,
 				3B09FB4E1CD0F33700FF55EB /* community-user2.jpg in Resources */,
 				3B57F3241CC4CFA6001F6276 /* Cold_light.png in Resources */,
 				3B57F3271CC4CFA6001F6276 /* currentInfo.json in Resources */,
@@ -1031,6 +1098,8 @@
 				3B57F33F1CC4CFA6001F6276 /* ios7-home.png in Resources */,
 				3B57F3161CC4CFA6001F6276 /* All_Complain1.png in Resources */,
 				3B57F3521CC4CFA6001F6276 /* News1.png in Resources */,
+				3B5E01871CD88ACB00A89909 /* my complain.png in Resources */,
+				3B5E01891CD88ACB00A89909 /* my message.png in Resources */,
 				3B57F36A1CC4CFA6001F6276 /* Wear_light.png in Resources */,
 				3B09FB881CD0FEDB00FF55EB /* b1.jpg in Resources */,
 				3B09FB7D1CD0F35E00FF55EB /* umeng_socialize_tx_on.png in Resources */,
@@ -1044,6 +1113,7 @@
 				3B084FFE1CC529F7006C1614 /* LaunchScreen.storyboard in Resources */,
 				3B09FB4D1CD0F33700FF55EB /* community-user1.jpg in Resources */,
 				3B09FB8B1CD0FEDB00FF55EB /* b4.jpg in Resources */,
+				3B5E013E1CD4812700A89909 /* ios7-compose-outline.png in Resources */,
 				3B57F33D1CC4CFA6001F6276 /* ios7-chatboxes.png in Resources */,
 				3B0850021CC52DD9006C1614 /* ios7-camera.png in Resources */,
 				3B57F35D1CC4CFA6001F6276 /* Rays.png in Resources */,
@@ -1056,6 +1126,7 @@
 				3B57F3311CC4CFA6001F6276 /* Game.png in Resources */,
 				3B57F3561CC4CFA6001F6276 /* O3_light.png in Resources */,
 				3B57F3571CC4CFA6001F6276 /* PM10.png in Resources */,
+				3B5E01421CD4850600A89909 /* ios7-location-outline.png in Resources */,
 				3B09FB781CD0F35E00FF55EB /* umeng_socialize_sina_off.png in Resources */,
 				3B57F3881CC4CFA6001F6276 /* 6.png in Resources */,
 				3B09FB4A1CD0EE8100FF55EB /* community.json in Resources */,
@@ -1077,6 +1148,7 @@
 				3B57F3871CC4CFA6001F6276 /* 53.png in Resources */,
 				3B57F3771CC4CFA6001F6276 /* 2.png in Resources */,
 				3B57F36B1CC4CFA6001F6276 /* 0.png in Resources */,
+				3B5E01861CD88ACB00A89909 /* gear.png in Resources */,
 				3B57F33C1CC4CFA6001F6276 /* ios7-chatboxes-outline.png in Resources */,
 				3B0850011CC52DD9006C1614 /* ios7-camera-outline.png in Resources */,
 				3B09FB701CD0F35E00FF55EB /* umeng_socialize_gmail.png in Resources */,
@@ -1088,9 +1160,10 @@
 				3B57F38E1CC4CFA6001F6276 /* years-pollution.json in Resources */,
 				3B09FB761CD0F35E00FF55EB /* umeng_socialize_renren_off.png in Resources */,
 				3B57F3681CC4CFA6001F6276 /* tp_hz_now.json in Resources */,
+				3B5E013A1CD480C200A89909 /* ios7-pricetags-outline.png in Resources */,
 				3B57F3361CC4CFA6001F6276 /* hz-aqi-history.json in Resources */,
 				3B57F3541CC4CFA6001F6276 /* NO2_light.png in Resources */,
-				3B57F31C1CC4CFA6001F6276 /* cell.plist in Resources */,
+				3B57F31C1CC4CFA6001F6276 /* Four's cell.plist in Resources */,
 				3B57F3511CC4CFA6001F6276 /* News.png in Resources */,
 				3B57F3421CC4CFA6001F6276 /* ios7-location-black.png in Resources */,
 				3B57F31F1CC4CFA6001F6276 /* Chart1.png in Resources */,
@@ -1128,13 +1201,15 @@
 				3B57F31E1CC4CFA6001F6276 /* Chart.png in Resources */,
 				3B57F3841CC4CFA6001F6276 /* 31.png in Resources */,
 				3B57F3721CC4CFA6001F6276 /* 15.png in Resources */,
+				3B5E017F1CD883B500A89909 /* Five's cell.plist in Resources */,
 				3B57F3351CC4CFA6001F6276 /* humidity.png in Resources */,
 				3B60F91E1CD1805B00806F9F /* share.png in Resources */,
 				3B57F3831CC4CFA6001F6276 /* 30.png in Resources */,
 				3B57F3651CC4CFA6001F6276 /* temperature.png in Resources */,
 				3B57F3181CC4CFA6001F6276 /* aqi.json in Resources */,
 				3B57F36E1CC4CFA6001F6276 /* 11.png in Resources */,
-				3B57F3491CC4CFA6001F6276 /* menu.plist in Resources */,
+				3B5E01881CD88ACB00A89909 /* my discuss.png in Resources */,
+				3B57F3491CC4CFA6001F6276 /* Four's menu.plist in Resources */,
 				3B57F3331CC4CFA6001F6276 /* home-bg-light.jpg in Resources */,
 				3B084FBC1CC52596006C1614 /* Default-568h@2x.png in Resources */,
 				3B57F3321CC4CFA6001F6276 /* Game1.png in Resources */,
@@ -1217,15 +1292,17 @@
 				3B57F31D1CC4CFA6001F6276 /* Chart.m in Sources */,
 				3BF6DCFB1CC75CB4001EF668 /* HYBPageControl.m in Sources */,
 				3B57F3171CC4CFA6001F6276 /* AppDelegate.mm in Sources */,
+				3B5E01781CD875A800A89909 /* Sina.m in Sources */,
 				3BF6DCF01CC75CB4001EF668 /* MASConstraint.m in Sources */,
 				3BF6DCF31CC75CB4001EF668 /* MASViewAttribute.m in Sources */,
 				3B57F34F1CC4CFA6001F6276 /* NearComplain.m in Sources */,
 				3BF6DCEF1CC75CB4001EF668 /* MASCompositeConstraint.m in Sources */,
 				3BF6DCF71CC75CB4001EF668 /* View+MASAdditions.m in Sources */,
-				3B57F32E1CC4CFA6001F6276 /* FifthView.m in Sources */,
 				3B57F34B1CC4CFA6001F6276 /* myline.m in Sources */,
+				3B5E017B1CD8800100A89909 /* FifthView.m in Sources */,
 				3B57F3301CC4CFA6001F6276 /* Game.m in Sources */,
 				3B57F32F1CC4CFA6001F6276 /* FourthView.m in Sources */,
+				3B5E01361CD46A5E00A89909 /* myLocation.m in Sources */,
 				3BF6DCF51CC75CB4001EF668 /* NSArray+MASAdditions.m in Sources */,
 				3BF6DCF61CC75CB4001EF668 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				3BF6DCF91CC75CB4001EF668 /* HYBLoadImageView.m in Sources */,
@@ -1244,6 +1321,7 @@
 				3BF6DC6E1CC5FC91001EF668 /* Gauge.m in Sources */,
 				3B57F3281CC4CFA6001F6276 /* Data.m in Sources */,
 				3B57F35F1CC4CFA6001F6276 /* Search.m in Sources */,
+				3B5E01751CD870E800A89909 /* Qozone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

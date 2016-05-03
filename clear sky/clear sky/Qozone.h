@@ -1,5 +1,5 @@
 //
-//  FifthView.h
+//  Qozone.h
 //  clear sky
 //
 //  Created by Colin on 16/5/3.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FifthView : UIViewController
+@interface Qozone : UIViewController<UIWebViewDelegate>
+
+@property UIWebView *qqWebView;
 
 @end

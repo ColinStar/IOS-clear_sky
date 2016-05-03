@@ -36,10 +36,10 @@
     
     tv.separatorInset = UIEdgeInsetsMake(0, 0, 0, 0);
     
-    NSString* menuDataPath = [[NSBundle mainBundle] pathForResource:@"menu" ofType:@"plist"];
+    NSString* menuDataPath = [[NSBundle mainBundle] pathForResource:@"Four's menu" ofType:@"plist"];
     _menu =[[NSArray alloc]initWithContentsOfFile:menuDataPath];
     
-    NSString* menuDataPath1 = [[NSBundle mainBundle] pathForResource:@"cell" ofType:@"plist"];
+    NSString* menuDataPath1 = [[NSBundle mainBundle] pathForResource:@"Four's cell" ofType:@"plist"];
     _cell = [[NSArray alloc]initWithContentsOfFile:menuDataPath1];
 
     

@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import <CoreLocation/CLLocationManagerDelegate.h>
 
-@interface ThridView :UIViewController
+@interface ThridView :UIViewController<CLLocationManagerDelegate,UITextFieldDelegate,UITextViewDelegate,UIGestureRecognizerDelegate>{
+
+}
 
 @end
 

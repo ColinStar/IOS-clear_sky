@@ -992,6 +992,10 @@
     }
 }
 
+-(NSString*) getlocation{
+    return cityname;
+}
+
 /*#pragma mark -汉字转拼音
 -(void) Transform:(NSString *)hanziText{
     if (hanziText.length > 0) {
